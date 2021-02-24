@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:online_products_ui/config/constant.dart';
-import 'package:online_products_ui/screen/detail/detail_screen.dart';
+import 'package:online_products_ui/screen/detail_screen.dart';
 
 class LearningCard extends StatelessWidget {
   const LearningCard({
@@ -20,10 +20,7 @@ class LearningCard extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) {
-              return DetailScreen();
-            },
-          ),
+            builder: (context) => DetailScreen())
         );
       },
       child: Container(

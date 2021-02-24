@@ -1,9 +1,8 @@
-
 import 'package:flutter/cupertino.dart';
-import 'package:online_products_ui/screen/detail/widget/course_image.dart';
-import 'package:online_products_ui/screen/detail/widget/course_list.dart';
-import 'package:online_products_ui/screen/detail/widget/course_title.dart';
-import 'package:online_products_ui/screen/widget/welcome_title.dart';
+import 'package:online_products_ui/widgets/details-page/course_image.dart';
+import 'package:online_products_ui/widgets/details-page/course_list.dart';
+import 'package:online_products_ui/widgets/details-page/course_title.dart';
+import 'package:online_products_ui/widgets/welcome_title.dart';
 
 class Body extends StatelessWidget {
   @override

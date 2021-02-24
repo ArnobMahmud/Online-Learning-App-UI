@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:online_products_ui/config/constant.dart';
-import 'package:online_products_ui/screen/detail/widget/body.dart';
-import 'package:online_products_ui/screen/widget/my_bottom_bar.dart';
+import 'package:online_products_ui/widgets/home-page/body.dart';
+import 'package:online_products_ui/widgets/my_bottom_bar.dart';
 
 class DetailScreen extends StatelessWidget {
   AppBar buildAppBar() {

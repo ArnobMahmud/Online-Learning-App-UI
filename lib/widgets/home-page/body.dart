@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:online_products_ui/config/constant.dart';
-import 'package:online_products_ui/screen/home/widget/learning_card.dart';
-import 'package:online_products_ui/screen/widget/welcome_title.dart';
+import 'package:online_products_ui/widgets/home-page/learning_card.dart';
+import 'package:online_products_ui/widgets/welcome_title.dart';
 
 class Body extends StatelessWidget {
   @override
